@@ -1,0 +1,42 @@
+name: workout_app
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_bloc: ^7.2.0
+  flutter_form_bloc: ^0.20.1
+  get_it: ^7.0.0
+  injectable: ^1.5.0
+ 
+  logger: ^1.1.0
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  freezed: ^0.14.0+1
+  build_runner: ^2.1.7
+  injectable_generator: ^1.2.0
+  
+  flutter_lints: ^1.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: Dosis
+      fonts:
+        - asset: assets/fonts/dosis.ttf
